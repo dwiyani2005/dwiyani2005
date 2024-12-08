@@ -1,0 +1,120 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #dbe1e3;
+    background-image: linear-gradient(45deg, #53666d 25%, transparent 25%, transparent 75%, #ffffff 75%, #789fa2),
+                      linear-gradient(135deg, #7489a1fb 25%, transparent 25%, transparent 75%, #ffffff 75%, #ffffff);
+    background-size: 20px 20px;
+}
+
+header {
+    background: #9e9ea8fb;
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav {
+    margin: 20px 0;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 20px; /* Jarak dalam untuk membuat kotak */
+    background-color: rgba(103, 97, 97, 0.418); /* Warna latar belakang semi-transparan */
+    border-radius: 10px; /* Membuat sudut melengkung */
+    margin: 0 10px; /* Jarak antar tautan */
+    transition: background-color 0.3s ease; /* Efek transisi saat hover */
+}
+
+nav a:hover {
+    background-color: rgba(255, 255, 255, 0.4); /* Warna latar saat hover */
+}
+
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+section {
+    background: rgba(255, 255, 255, 0.9);
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(155, 75, 75, 0.1);
+    text-align: center; /* Semua teks dalam section menjadi ke tengah */
+ }
+
+
+.portfolio-item {
+    margin: 10px 0;
+    padding: 10px;
+    border-left: 5px solid #3b3b3b;
+    background: #bfbaba;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background: #9fa2a4;
+    color: #ffffff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+/* Gaya untuk bagian kontainer */
+.container section {
+    background-color: #f9f9f9; /* Warna latar belakang kotak */
+    padding: 20px;
+    margin: 20px auto; /* Jarak atas-bawah dan memusatkan elemen */
+    border-radius: 15px; /* Membuat lengkungan pada sudut */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Memberikan efek bayangan lembut */
+    max-width: 800px; /* Membatasi lebar kotak agar lebih rapi */
+}
+/* Gaya untuk kotak melengkung di belakang heading */
+.container section h2 {
+    display: inline-block; /* Supaya kotak hanya sesuai dengan ukuran teks */
+    background-color: #f2f2f2; /* Warna latar belakang kotak */
+    padding: 10px 20px; /* Jarak dalam kotak */
+    border-radius: 10px; /* Membuat sudut melengkung */
+    color: #333; /* Warna teks */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Efek bayangan */
+    margin-bottom: 20px; /* Jarak bawah heading */
+    text-align: center; /* Pusatkan teks */
+}
+
+
+/* Gaya untuk setiap heading di dalam section */
+.container section h2 {
+    text-align: center;
+    color: #333; /* Warna teks heading */
+    margin-bottom: 15px;
+}
+
+/* Gaya tambahan untuk gambar pada Tentang Saya */
+#about-photo {
+    border-radius: 50%; /* Membuat gambar menjadi bulat */
+    border: 4px solid #ddd; /* Menambahkan garis batas di sekitar gambar */
+}
+
+/* Ikon media sosial */
+#social-media {
+    text-align: center;
+    margin-top: 15px;
+}
+
+#social-media a {
+    margin: 0 10px;
+    color: #333; /* Warna ikon */
+    font-size: 24px; /* Ukuran ikon */
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+#social-media a:hover {
+    color: #007bff; /* Warna ikon saat hover */
+}
